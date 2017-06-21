@@ -1,0 +1,168 @@
+    #teamtejaas {
+        display: none;
+    }
+    
+    svg {
+        position: absolute;
+        width: 240px;
+        height: 120px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+    }
+    
+    #socket {
+        fill: #FDB515
+    }
+    
+    #loop-normal {
+        fill: none;
+        stroke: #FDB515;
+        stroke-width: 12
+    }
+    
+    #loop-offset {
+        display: none
+    }
+    
+    #follow {
+        background-image: url('../img/like_bg.jpg');
+        background-position: 50% -77.9861px;
+        padding: 30px 0;
+        background-size: cover;
+        overflow: hidden;
+    }
+    
+    #follow .section-title {
+        color: #FFF;
+    }
+    
+    #follow .text-center {
+        text-align: center!important;
+        width: 100%;
+    }
+    
+    .section-title {
+        margin-top: 0;
+        font-weight: 700;
+        font-size: 2em;
+        position: relative;
+        padding-bottom: 10px;
+        display: inline-block;
+        letter-spacing: 0.05em;
+    }
+    
+    #follow h3 {
+        margin-bottom: 50px;
+    }
+    
+    .connected-icons {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    .connected-icons li {
+        display: inline-block;
+        width: 16%;
+    }
+    
+    .connected-icons li a {
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .connected-icons li a span {
+        height: 80px;
+        width: 80px;
+        background: rgba(255, 255, 255, 0.6);
+        border-radius: 50%;
+        font-size: 40px;
+        line-height: 80px;
+        margin-bottom: 15px;
+        color: #000;
+        transition: all 0.3s ease-in-out;
+        position: relative;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+    
+    .connected-icons li a span:after {
+        border: 2px solid #f45c27;
+        left: -15px;
+        right: -15px;
+        top: -15px;
+        bottom: -15px;
+        transition: all 0.5s ease-in-out;
+        content: '';
+        opacity: 0;
+        position: absolute;
+        border-radius: 50%;
+    }
+    
+    .connected-icons li a h4 {
+        color: #f45c27;
+        letter-spacing: 0.05em;
+        font-size: 20px;
+    }
+    
+    .connected-icons li a:hover span {
+        background: rgba(244, 92, 39, 0.8);
+        color: #FFF;
+        font-size: 30px !important;
+        border-bottom-color: green;
+    }
+    
+    .connected-icons li a:hover span:after {
+        opacity: 1;
+        left: -5px;
+        right: -5px;
+        top: -5px;
+        bottom: -5px;
+    }
+    
+    @media (max-width: 768px) {
+        .connected-icons li {
+            width: 30%;
+        }
+        #follow h3 {
+            font-size: 20px;
+        }
+    }
+    
+    .modal-body .form-horizontal .col-sm-2,
+    .modal-body .form-horizontal .col-sm-10 {
+        width: 100%
+    }
+    
+    .modal-body .form-horizontal .control-label {
+        text-align: left;
+    }
+    
+    .modal-body .form-horizontal .col-sm-offset-2 {
+        margin-left: 15px;
+    }
+    
+    .contact-us {
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-color: #333;
+    }
+    
+    .contact-us .text-center {
+        text-align: center !important;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .info {
+        color: red !important;
+    }
+    
+    #mail-status {
+        color: green;
+    }
